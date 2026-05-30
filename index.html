@@ -1,31 +1,103 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>My Profile</title>
-	<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Binavo</title>
+<link rel="stylesheet" href="style.css">
 </head>
+<div id="particles-js"></div>
 
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</body>
+<script src="script.js"></script>
+</html>
 <body>
-	<div class="card">
-		<h1>Hi, I 'm Binavo </h1>
-		
-		<p class="intro">
-			I am a beginner in programming,currently learning Python and web development.
-		</p>
-		
-		<h2> Skills</h2>
-		<ul>
-			<li>Python(beginner)</li>
-			<li>HTML / CSS</li>
-			<li>Git & GitHub</li>
-		</ul>
-		
-		<h2> Projects</h2>
-		<p>More coming soon...</p>
 
-		<h2> Contact</h2>
-		<p>Email:binaerbaka@gmail.com</p>
-	</div>
+<div class="container">
+
+    <aside class="sidebar">
+
+        <img src="images/avatar.png" class="avatar">
+		
+        <h2>Binavo</h2>
+		
+        <p class="subtitle">
+            AI Developer
+        </p>
+		<button id="themeToggle">
+   		 🌙 Dark Mode
+		</button>
+        <nav>
+            <a href="#intro">Introduction</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </aside>
+
+    <main>
+
+        <section id="intro" class="card">
+            <h1>Introduction</h1>
+
+            <p>
+                Hi, I'm Binavo.
+            </p>
+
+            <p>
+                Computer Science student interested in
+                Artificial Intelligence,
+                Human Computer Interaction,
+                and Software Development.
+            </p>
+
+            <p>
+                Currently building AffectCore.
+            </p>
+        </section>
+
+        <section id="skills" class="card">
+            <h1>Skills</h1>
+
+            <div class="tags">
+                <span>Python</span>
+                <span>PyTorch</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Git</span>
+                <span>Linux</span>
+                <span>LLM</span>
+            </div>
+        </section>
+
+        <section id="projects" class="card">
+            <h1>Projects</h1>
+
+            <div class="project">
+
+                <h3>AffectCore</h3>
+
+                <p>
+                    AI Companion Framework with emotion
+                    and memory systems.
+                </p>
+
+            </div>
+        </section>
+
+        <section id="contact" class="card">
+            <h1>Contact</h1>
+
+            <p>GitHub</p>
+            <p>Email</p>
+        </section>
+
+    </main>
+
+</div>
+
 </body>
 </html>
